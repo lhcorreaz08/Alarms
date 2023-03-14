@@ -42,48 +42,66 @@
 
         </div>
     
-        <div class="acordeon-rutinas">
-                <button class="accordion">
-                    <p style="padding-left: 100px;">
-                        <i id="desplegable" class="fa-solid fa-circle-chevron-down"  style="margin-right: 35px; font-size:55px; color: #F9B000 ;"></i>
-                        Rutina 1
-                        <i id="drop-down" class="fa-solid fa-grip-vertical"  style="margin-left: 700px; font-size:55px; color: #000 ;"></i>
-                        <i id="delete-button" class="fa-regular fa-circle-xmark"  style="margin-left: 20px; font-size:55px; color: #000 ;"></i>
-                        <i id="edit-button" class="fa-regular fa-pen-to-square"  style="margin-left: 20px; font-size:55px; color: #000 ;"></i>
-                        <i id="report-button" class="fa-solid fa-table"  style="margin-left: 20px; font-size:55px; color: #000 ;"></i>
-                        <i class="switch-button" style="margin-left: 20px;">
-                            <!-- Checkbox -->
-                            <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
-                            <!-- Botón -->
-                            <label for="switch-label" class="switch-button__label"></label>
-                        </i>
-                    </p>
-                </button>
-                <div class="panel">
-                    <table class="styled-table">
-                        <thead>
-                            <tr>
-                                <th>Temporizadores</th>
-                                <th>Tiempo</th>
-                                <th>Borrar</th>
+        <div class="create-card">
+            <div class="title-card">
+                <h2 style="margin-left: 140px; padding-top:10px; font-size:35px; color: white;"> Rutina A </h2>
+            </div>
+            <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Temporizadores</th>
+                            <th>Tiempo</th>
+                            <th>Configuraciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: right; font-size: 50px;" ><i class="fa-solid fa-grip-vertical"></i></td>
+                            <td>Temporizador B</td>
+                            <td>00:14:45</td>
+                            <td style="font-size: 35px;"><i style="margin-right: 15px; color: #3bd714;" class="fa-solid fa-toggle-on"></i><i style="margin-right: 15px;" class="fa-solid fa-trash"></i><i class="fa-solid fa-gear"></i></td>
+                        </tr>
+                        <tr class="active-row">
+                            <td style="text-align: right; font-size: 50px;" ><i class="fa-solid fa-grip-vertical"></i></td>
+                            <td>Temporizador B</td>
+                            <td>00:14:45</td>
+                            <td style="font-size: 35px;"><i style="margin-right: 15px; color: #3bd714;" class="fa-solid fa-toggle-on"></i><i style="margin-right: 15px;" class="fa-solid fa-trash"></i><i class="fa-solid fa-gear"></i></td>
+                        </tr>
+                    </tbody>
+            </table>
+
+            <div class="add-temp">
+                <i class="fa-solid fa-circle-plus"  style="font-size:80px; color: #F9B000"></i> 
+                <a style="vertical-align:50%; font-size: 33px; padding-left: 30px; font-family: 'Montserrat', sans-serif;"> 
+                    Agregar Temporizador
+                </a>
+            </div>
+
+            <div class="flex-container-d">
+                <div> 
+                    <table class="styled-table-container">
+                        <tbody> 
+                            <tr style="height: 100px;">
+                                <td>Repetir</td>
+                                <td style="Font-size: 35px;">L M <span style="background-color: #F9B000;  border-radius: 40%; " >M</span> J V S D</td>
+                                
                             </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Temporizador A</td>
-                                <td>00:00:00</td>
-                                <td><i class="fa-solid fa-trash"></i></td>
-                            </tr>
-                            <tr class="active-row">
-                                <td>Temporizador B</td>
-                                <td>00:14:45</td>
-                                <td><i class="fa-solid fa-trash"></i></td>
+                            <tr style="height: 100px;">
+                                <td>Semanalmente</td>
+                                <td><i style="margin-right: 15px; color: #3bd714; Font-size: 50px;" class="fa-solid fa-toggle-on"></i></td>                      
                             </tr>
                         </tbody>
                     </table>
                 </div>
-        
- 
+
+                <div class="create-routine-button">
+                    <i class="fa-solid fa-circle-plus"  style="font-size:80px; color: #F9B000"></i>
+                    <h1 style="font-size:30px" >Agregar<br> rutina</h1>
+                </div>
+            </div>
+
+
         </div>
         
     </div>
