@@ -21,7 +21,6 @@
 </header>
 
 <body>
-
     <div class="flex-container">
 
         <div class="lateral-menu" >
@@ -45,12 +44,11 @@
         </div>
         
         <div class="acordeon-rutinas">
-            <div>
                 <button class="accordion">
                     <p style="padding-left: 100px;">
                         <i id="desplegable" class="fa-solid fa-circle-chevron-down"  style="margin-right: 35px; font-size:65px; color: #F9B000 ;"></i>
                         Rutina 1
-                        <i id="drop-down" class="fa-solid fa-grip-vertical"  style="margin-left: 900px; font-size:65px; color: #000 ;"></i>
+                        <i id="drop-down" class="fa-solid fa-grip-vertical"  style="margin-left: 600px; font-size:65px; color: #000 ;"></i>
                         <i id="delete-button" class="fa-regular fa-circle-xmark"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
                         <i id="edit-button" class="fa-regular fa-pen-to-square"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
                         <i id="report-button" class="fa-solid fa-table"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
@@ -62,84 +60,114 @@
                         </i>
                     </p>
                 </button>
-            </div>
-            <div class="panel">
-                <table class="styled-table">
-                    <thead>
-                        <tr>
-                            <th>Temporizadores</th>
-                            <th>Tiempo</th>
-                            <th>Borrar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Temporizador A</td>
-                            <td>00:00:00</td>
-                            <td><i class="fa-solid fa-trash"></i></td>
-                        </tr>
-                        <tr class="active-row">
-                            <td>Temporizador B</td>
-                            <td>00:14:45</td>
-                            <td><i class="fa-solid fa-trash"></i></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <div class="panel">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Temporizadores</th>
+                                <th>Tiempo</th>
+                                <th>Borrar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Temporizador A</td>
+                                <td>00:00:00</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr class="active-row">
+                                <td>Temporizador B</td>
+                                <td>00:14:45</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             
-            <button class="accordion"><p style="padding-left: 120px;">Rutina 2</p></button>
-            <div class="panel">
-                <table class="styled-table">
-                    <thead>
-                        <tr>
-                            <th>Temporizadores</th>
-                            <th>Tiempo</th>
-                            <th>Borrar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Temporizador A</td>
-                            <td>00:00:00</td>
-                            <td><i class="fa-solid fa-trash"></i></td>
-                        </tr>
-                        <tr class="active-row">
-                            <td>Temporizador B</td>
-                            <td>00:14:45</td>
-                            <td><i class="fa-solid fa-trash"></i></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            
-            <button class="accordion"><p style="padding-left: 120px;">Rutina 3</p></button>
-            <div class="panel">
-                <table class="styled-table">
-                    <thead>
-                        <tr>
-                            <th>Temporizadores</th>
-                            <th>Tiempo</th>
-                            <th>Borrar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Temporizador A</td>
-                            <td>00:00:00</td>
-                            <td><i class="fa-solid fa-trash"></i></td>
-                        </tr>
-                        <tr class="active-row">
-                            <td>Temporizador B</td>
-                            <td>00:14:45</td>
-                            <td><i class="fa-solid fa-trash"></i></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        
+                <button class="accordion">
+                    <p style="padding-left: 100px;">
+                        <i id="desplegable" class="fa-solid fa-circle-chevron-down"  style="margin-right: 35px; font-size:65px; color: #F9B000 ;"></i>
+                        Rutina 2
+                        <i id="drop-down" class="fa-solid fa-grip-vertical"  style="margin-left: 600px; font-size:65px; color: #000 ;"></i>
+                        <i id="delete-button" class="fa-regular fa-circle-xmark"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
+                        <i id="edit-button" class="fa-regular fa-pen-to-square"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
+                        <i id="report-button" class="fa-solid fa-table"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
+                        <i class="switch-button" style="margin-left: 20px;">
+                            <!-- Checkbox -->
+                            <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                            <!-- Botón -->
+                            <label for="switch-label" class="switch-button__label"></label>
+                        </i>
+                    </p>
+                </button>
+                <div class="panel">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Temporizadores</th>
+                                <th>Tiempo</th>
+                                <th>Borrar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Temporizador A</td>
+                                <td>00:00:00</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr class="active-row">
+                                <td>Temporizador B</td>
+                                <td>00:14:45</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <button class="accordion">
+                    <p style="padding-left: 100px;">
+                        <i id="desplegable" class="fa-solid fa-circle-chevron-down"  style="margin-right: 35px; font-size:65px; color: #F9B000 ;"></i>
+                        Rutina 3
+                        <i id="drop-down" class="fa-solid fa-grip-vertical"  style="margin-left: 600px; font-size:65px; color: #000 ;"></i>
+                        <i id="delete-button" class="fa-regular fa-circle-xmark"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
+                        <i id="edit-button" class="fa-regular fa-pen-to-square"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
+                        <i id="report-button" class="fa-solid fa-table"  style="margin-left: 20px; font-size:65px; color: #000 ;"></i>
+                        <i class="switch-button" style="margin-left: 20px;">
+                            <!-- Checkbox -->
+                            <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                            <!-- Botón -->
+                            <label for="switch-label" class="switch-button__label"></label>
+                        </i>
+                    </p>
+                </button>
+                <div class="panel">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Temporizadores</th>
+                                <th>Tiempo</th>
+                                <th>Borrar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Temporizador A</td>
+                                <td>00:00:00</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr class="active-row">
+                                <td>Temporizador B</td>
+                                <td>00:14:45</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                    
+ 
         </div>
         
-
     </div>
 
 
