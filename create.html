@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarms - Home</title>
+
+    <link rel="stylesheet" href="css/create-routines.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<header>
+</header>
+
+<body>
+    <div class="title-bar" >
+        <div class="tip-icon-text">
+            <h2 style="margin-left: 50px; margin-top: 15px; font-size:35px;"> Crear Rutina </h2>
+        </div>
+    </div>
+    <div class="flex-container">
+
+        <div class="lateral-menu" >
+            <div class="home-clock">
+                <i class="fa-regular fa-clock"></i>
+            </div>
+            <nav class="lateral-nav" >
+                <div class="home">
+                    <i class="fa-solid fa-house"></i><a style="padding-left: 20px;" href="index.html">Inicio</a></div>
+                <div class="edit">
+                    <i class="fa-regular fa-pen-to-square" ></i><a style="padding-left: 20px;" href="index.html">Editar</a></div>
+                <div class="report">
+                    <i class="fa-solid fa-table" ></i><a style="padding-left: 20px;" href="index.html">Reporte</a></div>
+            </nav> 
+
+        </div>
+    
+        <div class="acordeon-rutinas">
+                <button class="accordion">
+                    <p style="padding-left: 100px;">
+                        <i id="desplegable" class="fa-solid fa-circle-chevron-down"  style="margin-right: 35px; font-size:55px; color: #F9B000 ;"></i>
+                        Rutina 1
+                        <i id="drop-down" class="fa-solid fa-grip-vertical"  style="margin-left: 700px; font-size:55px; color: #000 ;"></i>
+                        <i id="delete-button" class="fa-regular fa-circle-xmark"  style="margin-left: 20px; font-size:55px; color: #000 ;"></i>
+                        <i id="edit-button" class="fa-regular fa-pen-to-square"  style="margin-left: 20px; font-size:55px; color: #000 ;"></i>
+                        <i id="report-button" class="fa-solid fa-table"  style="margin-left: 20px; font-size:55px; color: #000 ;"></i>
+                        <i class="switch-button" style="margin-left: 20px;">
+                            <!-- Checkbox -->
+                            <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                            <!-- Botón -->
+                            <label for="switch-label" class="switch-button__label"></label>
+                        </i>
+                    </p>
+                </button>
+                <div class="panel">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Temporizadores</th>
+                                <th>Tiempo</th>
+                                <th>Borrar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Temporizador A</td>
+                                <td>00:00:00</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr class="active-row">
+                                <td>Temporizador B</td>
+                                <td>00:14:45</td>
+                                <td><i class="fa-solid fa-trash"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        
+ 
+        </div>
+        
+    </div>
+
+
+    
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
+
+
+</body>
+
+
+
+
+<!--https://fontawesome.com/icons/house?s=solid&f=classic-->

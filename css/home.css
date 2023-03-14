@@ -31,7 +31,7 @@ html {
     flex-direction: row-reverse;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 1200px;
+    margin-left: 1150px;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
@@ -41,8 +41,8 @@ html {
     border-radius: 25px;
     background-color: #F9B000;
     width: 280px;
-    max-width: 240px;
-    min-width: 240px;
+    max-width: 280px;
+    min-width: 280px;
     height: 900px;
     flex-direction: row-reverse  
 }
@@ -74,12 +74,15 @@ html {
   
   .home{
     padding-bottom: 30px;
+    font-size:30px;
   }
   .edit{
     padding-bottom: 30px;
+    font-size:30px;
   }
   .report{
     padding-bottom: 30px;
+    font-size:30px;
   }
 
 a:link, a:visited, a:active {
@@ -88,10 +91,10 @@ a:link, a:visited, a:active {
 }
 
 .acordeon-rutinas {
-    width: 1600px;
-    min-width: 1600px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 1550px;
+    min-width: 1550px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -99,7 +102,7 @@ a:link, a:visited, a:active {
 .accordion {
     background-color: #ffffff;
     cursor: pointer;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-style: solid;
     width: 100%;
     border-radius: 8px;
@@ -124,7 +127,7 @@ a:link, a:visited, a:active {
 
 
   .styled-table {
-    width: 1600px;
+    width: 1550px;
     margin-left: 5px;
     margin-right: 0px;
     border-collapse: collapse;
