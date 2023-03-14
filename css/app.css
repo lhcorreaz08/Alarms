@@ -15,13 +15,35 @@ html {
     font-size: 30px;
   }
 
+.tip-icon-text{
+
+  display: flex;
+  flex-direction: row;
+}
+
+  .tip-bar{
+    border-radius: 25px;
+    background-color: #F9B000;
+    width: 700px;
+    max-width: 700px;
+    min-width: 700px;
+    height: 80px;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
 .lateral-menu{
     border-radius: 25px;
     background-color: #F9B000;
-    width: 240px;
+    width: 280px;
     max-width: 240px;
     min-width: 240px;
-    height: 800px;
+    height: 900px;
     flex-direction: row-reverse  
 }
 
@@ -37,11 +59,13 @@ html {
   .home-clock{
     text-align: center;
     padding-top: 50px;
+    font-size:75px; 
+    color: white;
   }
 
   .add-routine{
     text-align: center;
-    padding-top: 190px;
+    padding-top: 250px;
     flex-direction: row-reverse;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
