@@ -149,6 +149,7 @@ a:link, a:visited, a:active {
   margin-right: 20px;
   border-style: groove;
   border-radius: 25px;
+  display: none;
 }
 
 .edit-card{
